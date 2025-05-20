@@ -6,7 +6,6 @@ import notificationRoutes from "./notifications.routes";
 
 const router = express.Router();
 
-
 // API Routes
 router.use("/api/auth", authRoutes);
 router.use("/api/tasks", taskRoutes);
